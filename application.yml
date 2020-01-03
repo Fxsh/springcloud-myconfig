@@ -1,0 +1,14 @@
+spring:
+  profiles:
+    active:
+      - dev
+---
+spring:
+  application:
+    name: springcloud-eureka-7001
+  profiles: dev
+---
+spring:
+  profiles: default
+  application:
+    name: springcloud-test-default
